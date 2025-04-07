@@ -1,7 +1,6 @@
 package com.basepackage.controller;
 
 
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,7 +12,7 @@ public class SignupController {
 	
 	
 	
-	@GetMapping("/signup")
+	@PostMapping("/signup")
 	public  String    registerUser() {
 		
 		
